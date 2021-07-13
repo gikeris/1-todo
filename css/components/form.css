@@ -1,0 +1,41 @@
+.form{
+    display: flex;
+    width: 400px;
+    max-width: 90%;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 10px #0004;
+
+}
+.form > .form-row{
+    display: flex;
+
+}
+.form > .form-row > textarea{
+    width: 100%;
+    min-height: ;
+}
+
+.form > .form-row > input{
+    width: 100%;
+}
+
+.form > .form-row > input [type='checkbox']{
+    width: auto;
+    transform: scale(2);
+    transform-origin: left;
+}
+
+.form > .form-row > button {
+    flex-grow: 1;
+    line-height: 20px;
+    padding: 5px 30px;
+    line-height: 20px;
+}
+
+.form > .form-row > button.save{
+    background-color: green;
+    color: #f9f9f9;
+}
