@@ -12,5 +12,6 @@
 /* custom style below this comment line */
 body{
     display: flex;
+    justify-content: center;
     padding: 20px;
 }

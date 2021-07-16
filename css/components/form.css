@@ -11,25 +11,33 @@
 }
 .form > .form-row{
     display: flex;
-
+    gap: 20px;
 }
 .form > .form-row > textarea{
     width: 100%;
-    min-height: ;
+    min-height: 92px;
+    max-height: 260px;
+    resize: vertical;
+    line-height: 24px;
+    font-size: 18px ;
+    padding: 10px;
 }
 
 .form > .form-row > input{
     width: 100%;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 20px;
 }
 
-.form > .form-row > input [type='checkbox']{
+.form > .form-row > input[type="checkbox"]{
     width: auto;
     transform: scale(2);
     transform-origin: left;
 }
 
 .form > .form-row > button {
-    flex-grow: 1;
+    flex-grow: 1px;
     line-height: 20px;
     padding: 5px 30px;
     line-height: 20px;
